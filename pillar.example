@@ -30,7 +30,7 @@ nginx:
     lookup:
       package: nginx-custom
       service: nginx
-      webuser: nginx
+      webuser: www-data
       conf_file: /etc/nginx/nginx.conf
       vhost_available: /etc/nginx/sites-available
       vhost_enabled: /etc/nginx/sites-enabled
